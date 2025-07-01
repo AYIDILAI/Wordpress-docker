@@ -8,8 +8,10 @@ phpMyAdmin: "http://ipcasaos:8081"<br>
 <br>
 <strong>Admin</strong><br>
 username: root<br>
-password nanangmrk<br>
+password: ayidil123<br>
 <br>
 <strong>User</strong><br>
 username: user<br>
-password: nanangmrk<br>
+password: ayidil123<br>
+
+<strong>sumber: nanangmrk</strong><br>
