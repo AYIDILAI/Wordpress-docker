@@ -5,10 +5,10 @@ services:
     container_name: wordpress-db
     restart: unless-stopped   
     environment:
-      - MYSQL_ROOT_PASSWORD=nanangmrk
+      - MYSQL_ROOT_PASSWORD=ayidil123
       - MYSQL_DATABASE=wordpress
       - MYSQL_USER=user
-      - MYSQL_PASSWORD=nanangmrk
+      - MYSQL_PASSWORD=ayidil123
     ports:
       - target: 3306
         published: "3306"
@@ -35,7 +35,7 @@ services:
     environment:
       - WORDPRESS_DB_HOST=wordpress-db:3306
       - WORDPRESS_DB_USER=user
-      - WORDPRESS_DB_PASSWORD=nanangmrk 
+      - WORDPRESS_DB_PASSWORD=ayidil123 
       - WORDPRESS_DB_NAME=wordpress
     volumes:
       - type: bind
@@ -54,9 +54,9 @@ services:
         protocol: tcp 
     environment:
       - PMA_HOST=wordpress-db:3306            
-      - MYSQL_ROOT_PASSWORD=nanangmrk
+      - MYSQL_ROOT_PASSWORD=ayidil123
       - MYSQL_USER=user
-      - MYSQL_PASSWORD=nanangmrk 
+      - MYSQL_PASSWORD=ayidil123 
     networks:
       - wordpress-db              
     privileged: true 
